@@ -6,5 +6,6 @@ require 'haml'
 ###############################
 
 get '/' do
+  #@catalog = 
   haml :catalog
 end
