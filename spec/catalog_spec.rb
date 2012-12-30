@@ -1,5 +1,4 @@
 require File.dirname(__FILE__) + '/spec_helper'
-set :environment, :test
  
 describe "Catalog Test" do
   include Rack::Test::Methods
