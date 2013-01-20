@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'haml'
 require 'sass'
-require_relative 'api'
+require_relative 'lib/api'
 
 # Sinatra configuration 
 configure do
